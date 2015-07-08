@@ -22,7 +22,7 @@ lines(data$Time, data$Sub_metering_2, col=3)
 ## add sub_metering_3
 lines(data$Time, data$Sub_metering_3, col=4)
 ## add legend
-legend("topright", legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"), pch="_", col=2:4)
+legend("topright", legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"), cex=0.5, pch="_", col=2:4)
 
 ## PLOT 4
 plot(data$Time, data$Global_reactive_power, 
